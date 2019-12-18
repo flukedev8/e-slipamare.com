@@ -61,7 +61,7 @@
 
     <!-- munu top bar -->
 
-    <v-app-bar app color="primary" dark clipped-left hide-on-scroll dense>
+    <v-app-bar app color="primary" dark clipped-left hide-on-scroll  dense>
 
       <v-app-bar-nav-icon
         class="hidden-md-and-up"
