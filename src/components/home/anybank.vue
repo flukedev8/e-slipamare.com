@@ -1,6 +1,11 @@
 <template>
   <v-container>
     <v-row align="center" justify="center">
+      <v-col cols="12" md="12" sm="12">
+        <center><h3 class="font-weight-black"> ธนาคารที่ BOT สามารถตรวจจับข้อมูลได้</h3></center>
+      </v-col>
+    </v-row>
+    <v-row align="center" justify="center">
       <v-col cols="2" md="2" sm="1">
         <v-img
           src="../../assets/img/bank/kplus.png"
