@@ -37,15 +37,6 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="/contact">
-          <v-list-item-action>
-            <v-icon>mdi-phone-in-talk</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title>ราคา</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
 
         <v-list-item to="/contact">
           <v-list-item-action>
@@ -61,7 +52,7 @@
       <template v-slot:append>
         <div class="pa-2">
           <v-btn block>
-            portal
+            ซื้อ bot !!
             <v-icon>mdi-login</v-icon>
           </v-btn>
         </div>
@@ -70,12 +61,26 @@
 
     <!-- munu top bar -->
 
-    <v-app-bar app color="primary" dark clipped-left hide-on-scroll >
+    <v-app-bar app color="primary" dark clipped-left hide-on-scroll dense>
+
       <v-app-bar-nav-icon
         class="hidden-md-and-up"
         @click.stop="drawer = !drawer"
       ></v-app-bar-nav-icon>
-      <v-toolbar-title>E-slipamare.com</v-toolbar-title>
+      <div class="d-flex align-center ">
+        <router-link to="/">
+          <v-img
+            alt="e-slipamare Logo"
+            class="shrink mr-2"
+            contain
+            src="../src/assets/img/Picture1.png"
+            transition="scale-transition"
+            width="100"
+          />
+        </router-link>
+      </div>
+
+      <v-toolbar-title >E-slipamare.com</v-toolbar-title>
 
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
@@ -89,15 +94,12 @@
           <span class="mr-2">วิธีการใช้งาน</span>
         </v-btn>
         <v-btn to="/contact" text>
-          <span class="mr-2">ราคา</span>
-        </v-btn>
-        <v-btn to="/contact" text>
           <span class="mr-2">contact</span>
         </v-btn>
       </v-toolbar-items>
       <template v-if="$vuetify.breakpoint.smAndUp">
         <v-btn color="white">
-          <span class="portal">portal</span>
+          <span class="portal">ซื้อ bot !!</span>
           <v-icon color="primary">mdi-login</v-icon>
         </v-btn>
       </template>
@@ -180,6 +182,6 @@ export default {
 
 <style>
 span.portal {
-  color: #64DD17;
+  color: #FF4081;
 }
 </style>
