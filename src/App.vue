@@ -28,7 +28,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="/member">
+        <v-list-item to="/howto">
           <v-list-item-action>
             <v-icon>mdi-account-group</v-icon>
           </v-list-item-action>
@@ -51,7 +51,7 @@
 
       <template v-slot:append>
         <div class="pa-2">
-          <v-btn block>
+          <v-btn block to="/buybot">
             ซื้อ bot !!
             <v-icon>mdi-login</v-icon>
           </v-btn>
@@ -90,7 +90,7 @@
         <v-btn to="/about" text>
           <span class="mr-2">เกี่ยวกับเรา</span>
         </v-btn>
-        <v-btn to="/member" text>
+        <v-btn to="/howto" text>
           <span class="mr-2">วิธีการใช้งาน</span>
         </v-btn>
         <v-btn to="/contact" text>
@@ -98,7 +98,7 @@
         </v-btn>
       </v-toolbar-items>
       <template v-if="$vuetify.breakpoint.smAndUp">
-        <v-btn color="white">
+        <v-btn color="white" to="/buybot">
           <span class="portal">ซื้อ bot !!</span>
           <v-icon color="primary">mdi-login</v-icon>
         </v-btn>
