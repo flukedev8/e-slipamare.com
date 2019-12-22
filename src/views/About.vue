@@ -1,11 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <history/>
   </div>
 </template>
 
 <script>
+import history from '@/components/about/history.vue'
+
 export default {
+
+  components: {
+    history
+  },
   data: () => ({
    
   }),
