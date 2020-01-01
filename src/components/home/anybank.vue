@@ -42,14 +42,6 @@
           max-height="50"
         ></v-img>
       </v-col>
-      <v-col cols="2" md="2" sm="2" align="center">
-        <v-img
-          src="../../assets/img/bank/krungrhai.png"
-          aspect-ratio="1"
-          max-width="50"
-          max-height="50"
-        ></v-img>
-      </v-col>
     </v-row>
   </v-container>
 </section>

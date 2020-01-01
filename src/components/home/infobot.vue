@@ -2,17 +2,39 @@
   <section>
     <v-container>
       <section>
+        <v-row align="alignment" justify="center">
+          <iframe
+            width="860"
+            height="480"
+            src="https://www.youtube.com/embed/Stc6KqDXonE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </v-row>
         <v-row align="center" justify="center">
           <v-col cols="12" md="6" sm="6" xs="12" justify="center">
             <h3 class="headline font-weight-black">ความสามารถของ BOT</h3>
             <p>
-              BOT มีความสามารถดังนี้ 
+              BOT มีความสามารถดังนี้
             </p>
             <ui>
-              <li>บอกได้ว่า E-slip นี้เป็นของธนาคารใด เพื่อง่ายต่อการตวจสอบย้อนหลัง</li>
-              <li>บอกได้ว่า E-slip นี้มีการทำธุรกรรม วันที่และเวลาใด ใช้เป็นหลักฐานในการตรวจสอบ</li>
-              <li>บอกได้ว่า จำนวนเงินที่อยู่บน Silp นั้นเป็นจำนวนเงินเท่าใด เพื่อสะดวกในการสรุปยอดบัญชีในแต่ละวัน</li>
-              <li>สามารถค้นหา หมายเลขอ้างอิงใช้ตรวจสอบ เพื่อสะดวกในการตรวจสอบย้อนหลัง</li>
+              <li>
+                บอกได้ว่า E-slip นี้เป็นของธนาคารใด
+                เพื่อง่ายต่อการตวจสอบย้อนหลัง
+              </li>
+              <li>
+                บอกได้ว่า E-slip นี้มีการทำธุรกรรม วันที่และเวลาใด
+                ใช้เป็นหลักฐานในการตรวจสอบ
+              </li>
+              <li>
+                บอกได้ว่า จำนวนเงินที่อยู่บน Silp นั้นเป็นจำนวนเงินเท่าใด
+                เพื่อสะดวกในการสรุปยอดบัญชีในแต่ละวัน
+              </li>
+              <li>
+                สามารถค้นหา หมายเลขอ้างอิงใช้ตรวจสอบ
+                เพื่อสะดวกในการตรวจสอบย้อนหลัง
+              </li>
               <li>BOT สามารถอ่านได้เฉพาะ E-slip ที่เป็นภาษาไทยเท่านั้น</li>
             </ui>
           </v-col>
@@ -46,8 +68,9 @@
           <v-col cols="12" md="6" sm="6" xs="12" justify="center">
             <h3 class="headline font-weight-black">ความปลอดภัยของข้อมูล</h3>
             <p>
-              ข้อมูลของ E-slip ที่มีการส่งไปให้ BOT จัดเก็บนั้นจะถูกจัดเก็บลง google sheet ของท่านลูกค้า
-              ดังนั้น ข้อมูลจะถูกจัดเก็บไว้ในมือของท่าน 
+              ข้อมูลของ E-slip ที่มีการส่งไปให้ BOT จัดเก็บนั้นจะถูกจัดเก็บลง
+              google sheet ของท่านลูกค้า ดังนั้น
+              ข้อมูลจะถูกจัดเก็บไว้ในมือของท่าน
             </p>
           </v-col>
         </v-row>
@@ -57,8 +80,10 @@
           <v-col cols="12" md="6" sm="6" xs="12" justify="center">
             <h3 class="headline font-weight-black">ประหยัดเวลา ⌚⏰</h3>
             <p>
-              การมี BOT ช่วยเก็บข้อมูลธุรกรรมที่มีการโอนเข้าออกใน ร้านค้า หรือ ร้านขายของ ของท่านทำให้ท่านไม่ต้องมากรอกหรือเปิดรูปภาพที่ละรูป
-              ประหยัดเวลาในการตรวจสอบ หรือ สรุปยอดเงินในแต่ละวัน ได้ง่ายดายยิ่งขึ้น
+              การมี BOT ช่วยเก็บข้อมูลธุรกรรมที่มีการโอนเข้าออกใน ร้านค้า หรือ
+              ร้านขายของ ของท่านทำให้ท่านไม่ต้องมากรอกหรือเปิดรูปภาพที่ละรูป
+              ประหยัดเวลาในการตรวจสอบ หรือ สรุปยอดเงินในแต่ละวัน
+              ได้ง่ายดายยิ่งขึ้น
             </p>
           </v-col>
           <v-col cols="12" md="6" sm="6" xs="12" align="left">
@@ -80,3 +105,21 @@ export default {
   data: () => ({})
 };
 </script>
+
+<style>
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>

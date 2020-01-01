@@ -1,7 +1,9 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
+import VueYouTubeEmbed from 'vue-youtube-embed'
 
 Vue.use(Vuetify);
+Vue.use(VueYouTubeEmbed);
 
 export default new Vuetify({
   theme: {
