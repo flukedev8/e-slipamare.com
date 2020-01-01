@@ -28,16 +28,6 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="/howto">
-          <v-list-item-action>
-            <v-icon>mdi-account-group</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title>วิธีการใช้งาน</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-
         <v-list-item to="/contact">
           <v-list-item-action>
             <v-icon>mdi-phone-in-talk</v-icon>
@@ -89,9 +79,6 @@
         </v-btn>
         <v-btn to="/about" text>
           <span class="mr-2">เกี่ยวกับเรา</span>
-        </v-btn>
-        <v-btn to="/howto" text>
-          <span class="mr-2">วิธีการใช้งาน</span>
         </v-btn>
         <v-btn to="/contact" text>
           <span class="mr-2">contact</span>

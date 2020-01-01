@@ -75,7 +75,7 @@
           </v-card>
         </v-col>
         <v-col cols="12" md="4" sm="4" xs="12" align="center" justify="center">
-          <v-card max-width="344" shaped elevation="20">
+          <v-card max-width="344" shaped elevation="20" disabled>
             <v-card-text>
               <p class="display-1 text--primary">
                 Custom BOT
