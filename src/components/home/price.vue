@@ -37,7 +37,7 @@
               </div>
             </v-card-text>
             <v-card-actions class="justify-center">
-              <v-btn  color="primary" to="/buybot">
+              <v-btn  color="primary" to="/buybot/#buyone">
                 ดูรายละเอียด/สั่งซื้อ BOT
               </v-btn>
             </v-card-actions>
@@ -63,12 +63,12 @@
               <p>ราคา</p>
               <div class="headline">
                   800 บาท/30 วัน<br/>
-                  3,900 /6 เดือน <br/>
+                  3,900 บาท/6 เดือน <br/>
                   <p class="overline">หมายเหตุ มีค่าติดตั้ง 2,500 บาท จ่ายครั้งเดียว</p>
               </div>
             </v-card-text>
             <v-card-actions class="justify-center">
-              <v-btn  color="primary" to="/buybot">
+              <v-btn  color="primary" to="/buybot/#buytwo">
                 ดูรายละเอียด/สั่งซื้อ BOT
               </v-btn>
             </v-card-actions>
